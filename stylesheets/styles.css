@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-h3 {
-  font-family: 'Lato', sans-serif;
-}
-
 .comment {
   color: red;
 }
@@ -16,7 +12,7 @@ h3 {
 
 p {
   text-indent: 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato;
 }
 
 
@@ -823,7 +819,6 @@ section #title h1 {
 }
 section #title p {
   color: #d7cfbe;
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;

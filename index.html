@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Badass RP Forum</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -20,18 +30,44 @@
 
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/Tholen3/homepage">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/Tholen3/homepage/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/Tholen3/homepage/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
+
+        <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+           <div class="navbar-header">
+             <a class="navbar-brand" href="#">The Forum</a>
+           </div>
+           <ul class="nav navbar-nav">
+             <li class="active"><a href="#">Home</a></li>
+             <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Characters
+               <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                 <li><a href="#">Hadeon's</a></li>
+                 <li><a href="#">Tholen3's</a></li>
+                 <li><a href="#">Other Characters</a></li>
+               </ul>
+             </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapters
+                 <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                 <li><a href="#">Chapter I</a></li>
+                 <li><a href="#">Chapter II</a></li>
+                 <li><a href="#">Chapter III</a></li>
+               </ul>
+             </li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+           </ul>
+         </div>
+       </nav>
       </div><!-- end header -->
 
     <div class="wrapper">
 
-      <section>
+<section style="font-family:Lato">
         <div id="title">
           <h1>RP Forum</h1>
           <p>A Library of Random Thoughts</p>
@@ -50,9 +86,10 @@
         <li>Type in the title of your commit and a brief description. Click "Commit to GH."</li>
         <li>Go back to the "History" tab at the top and Sync to make sure it's synced on GitHub.</li>
       </ul>
-    </div>
+</div>
 <!--Step-by-step ends here -->
 
+<!--THE FORUM BEGINS AFTER THIS POINT -->
 <!--THE FORUM BEGINS AFTER THIS POINT -->
 
 <h2>What kind of story are we going to write anyway? We gotta figure that out.</h2>
@@ -62,11 +99,15 @@
 <p class="comment">Finished T2</p>
 
 <!-- THE FORUM ENDS AFTER THIS POINT -->
+<!-- THE FORUM ENDS AFTER THIS POINT -->
 
       </section>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

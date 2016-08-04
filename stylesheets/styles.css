@@ -1,11 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+body {
+  font-family: Lato;
+}
+
 .commentE {
   color: #77a;
+  font-weight: bold;
 }
 
 .commentT {
   color: orange;
+  font-weight: bold;
 }
 
 .emphasis {
@@ -19,11 +25,10 @@
   margin: 20px;
   background-color: #111;
   padding: 20px;
-}file
+}
 
 p {
-  text-indent: 27px;
-  font-family: Lato;
+  text-indent: 30px;
 }
 
 

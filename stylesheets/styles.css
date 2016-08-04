@@ -1,17 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-.comment {
-  color: red;
+.commentE {
+  color: #77a;
+}
+
+.commentT {
+  color: orange;
+}
+
+.emphasis {
+  font-weight:300;
+  font-family: sans-serif;
+  margin: 10px;
+  font-style:italic;
 }
 
 .stepByStep {
   margin: 20px;
   background-color: #111;
   padding: 20px;
-}
+}file
 
 p {
-  text-indent: 30px;
+  text-indent: 27px;
   font-family: Lato;
 }
 

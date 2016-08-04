@@ -71,7 +71,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: Lato;
 }
 
 /*
@@ -320,7 +320,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {

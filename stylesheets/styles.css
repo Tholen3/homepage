@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-body {
-  font-family: Lato;
-}
-
 .commentE {
   color: #77a;
   font-weight: bold;
@@ -25,12 +21,21 @@ body {
   margin: 20px;
   background-color: #111;
   padding: 20px;
+  border-style: groove;
+  border-color: #ddd;
+  border-width: 5px;
 }
 
 p {
   text-indent: 30px;
 }
 
+.stepsTitle {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-decoration: underline;
+}
 
 @font-face {
   font-family: 'OpenSansLight';
@@ -175,7 +180,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: Lato;
 }
 
 /*

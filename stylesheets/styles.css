@@ -4,7 +4,14 @@
 
 .backgroundImage {
   background-image: url("images/library.jpg");
-  background-position: contain;
+  background-position: cover;
+}
+
+.paper {
+  background-image: url('../images/paper.jpg');
+  background-size: cover;
+  padding:20px;
+  font-family: Georgia;
 }
 
 .chapterNumber {
@@ -54,6 +61,40 @@ p {
 
 .characterWindow {
   cursor: pointer;
+}
+
+.windowBody {
+  text-align: center;
+  color: black;
+}
+
+.windowBody h1 {
+  margin-top:50px;
+  letter-spacing:2px;
+  font-weight:300;
+  color: black;
+  font-size: 27px;
+  font-family: Georgia;
+  text-decoration: underline;
+}
+
+.windowBody h2 {
+  color: black;
+  font-size: 22px;
+  font-family: Georgia;
+  font-weight: 500;
+}
+
+.windowBody p {
+  font-size: 15px;
+  line-height: 18px;
+  font-family: Georgia;
+  text-align: left;
+  text-indent: 30px;
+}
+
+.windowBody .emphasis {
+  font-weight: bold;
 }
 
 

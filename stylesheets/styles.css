@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+/*Custom Additions below*/
+
 .commentE {
   color: #77a;
   font-weight: bold;
@@ -36,6 +38,13 @@ p {
   font-size: 20px;
   text-decoration: underline;
 }
+
+.characterWindow {
+  cursor: pointer;
+}
+
+
+/*Custom Additions above*/
 
 @font-face {
   font-family: 'OpenSansLight';
@@ -647,7 +656,7 @@ strong {
   max-width: 650px;
   margin: 0 auto;
   position: relative;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 section img {

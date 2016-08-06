@@ -19,6 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
+    <script src="js/main.js"></script>
 
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,14 +39,8 @@
            </div>
            <ul class="nav navbar-nav">
              <li class="active"><a href="#">Home</a></li>
-             <li class="dropdown">
-               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Characters
-               <span class="caret"></span></a>
-               <ul class="dropdown-menu">
-                 <li><a href="#">Hadeon's</a></li>
-                 <li><a href="#">Tholen3's</a></li>
-                 <li><a href="#">Other Characters</a></li>
-               </ul>
+             <li class="dropdown  characterWindow">
+               <a class="dropdown-toggle" data-toggle="dropdown" onClick="characterWindow()">Characters</a>
              </li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapters
@@ -57,10 +52,7 @@
                </ul>
              </li>
            </ul>
-           <ul class="nav navbar-nav navbar-right">
-             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-           </ul>
+
          </div>
        </nav>
       </div><!-- end header -->
@@ -88,6 +80,7 @@
       </ul>
 </div>
 <!--Step-by-step ends here -->
+<div class="forumArea">
 
 <!--THE FORUM BEGINS AFTER THIS POINT -->
 <!--THE FORUM BEGINS AFTER THIS POINT -->
@@ -104,6 +97,7 @@
 <!-- THE FORUM ENDS AFTER THIS POINT -->
 <!-- THE FORUM ENDS AFTER THIS POINT -->
 
+</div>
       </section>
 
     </div>

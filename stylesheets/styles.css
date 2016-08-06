@@ -97,6 +97,52 @@ p {
   font-weight: bold;
 }
 
+/*Responsive Mobile Nav */
+
+.menu-btn div {
+	padding: 5px;
+}
+
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+  margin-left: 10px;
+	background: rgb(255,255,255);
+}
+
+.responsive-menu{
+	display: none;
+  background-color: #444;
+  border-style: solid;
+  border-color: #252525;
+  border-width: 5px;
+  padding: 5px;
+  width: 300px;
+  font-size: 15px;
+}
+.responsive-menu ul{
+  margin: 0px 0px 0px -40px;
+}
+
+.responsive-menu li {
+    background-color: #383838;
+    margin: 4px;
+    padding: 5px;
+    color: white;
+    list-style-type: none;
+  }
+
+.expand {
+	display: block !important;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+}
 
 /*Custom Additions above*/
 

@@ -6,47 +6,33 @@
     <title>Badass RP Forum</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="js/respond.js"></script>
     <script src="js/main.js"></script>
-
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
   </head>
   <body>
-
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-         <div class="container-fluid">
+         <div class="container-fluid navbar navbar-inverse navbar-fixed-top">
            <div class="navbar-header">
              <a class="navbar-brand" href="#">The Forum</a>
            </div>
            <ul class="nav navbar-nav">
              <li class="active"><a href="#">Home</a></li>
-             <li class="dropdown characterWindow">
+             <li class="characterWindow">
                <a onClick="characterWindow()">Characters</a>
              </li>
-             <li class="dropdown characterWindow">
-               <a onClick="loreBook()">Lorebook</a>
+             <li class="characterWindow">
+               <a onClick="loreBook()">Lorebook</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chapters
-                 <span class="caret"></span></a>
+                 <span class="caret"></span></a></li>
                <ul class="dropdown-menu">
                  <li><a href="#">Chapter I</a></li>
                  <li><a href="#">Chapter II</a></li>
@@ -54,13 +40,25 @@
                </ul>
              </li>
            </ul>
-
          </div>
-       </nav>
+         <div class="mobile-nav navbar navbar-inverse navbar-fixed-top">
+           <div class="menu-btn" id="menu-btn">
+	            <div></div>
+	             <span></span>
+	              <span></span>
+	               <span></span>
+               </div>
+               <div class="responsive-menu">
+                 <ul><li class="active"><a href="#">Home</a></li>
+                   <li class="dropdown characterWindow"><a onClick="characterWindow()">Characters</a></li>
+                   <li class="characterWindow"><a onClick="loreBook()">Lorebook</a></li>
+                   <li><a href="#">Chapter I</a></li>
+                   <li><a href="#">Chapter II</a></li>
+                   <li><a href="#">Chapter III</a></li></ul>
+                 </div>
+               </div>
       </div><!-- end header -->
-
     <div class="wrapper">
-
 <section style="font-family:Lato">
         <div id="title">
           <h1>RP Forum</h1>

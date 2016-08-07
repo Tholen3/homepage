@@ -93,6 +93,11 @@ p {
   text-indent: 30px;
 }
 
+.windowBody li {
+  text-align: left;
+  font-size: 15px;
+}
+
 .windowBody .emphasis {
   font-weight: bold;
 }

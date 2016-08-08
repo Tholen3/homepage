@@ -12,6 +12,7 @@
   background-size: cover;
   padding:20px;
   font-family: Georgia;
+  background-attachment: fixed;
 }
 
 .chapterNumber {

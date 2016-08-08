@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-/*Custom Additions below*/
+/*Custom Additions below ======================================================*/
 
 .backgroundImage {
   background-image: url("images/library.jpg");
@@ -150,7 +150,7 @@ li a:hover {
   }
 }
 
-/*Custom Additions above*/
+/*Custom Additions above ======================================================*/
 
 @font-face {
   font-family: 'OpenSansLight';

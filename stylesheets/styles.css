@@ -7,14 +7,6 @@
   background-position: cover;
 }
 
-.paper {
-  background-image: url('../images/paper.jpg');
-  background-size: cover;
-  padding:20px;
-  font-family: Georgia;
-  background-attachment: fixed;
-}
-
 .chapterNumber {
   text-align: center;
   font-family: Lato;
@@ -58,49 +50,6 @@ p {
   letter-spacing: 2px;
   font-size: 20px;
   text-decoration: underline;
-}
-
-.characterWindow {
-  cursor: pointer;
-}
-
-.windowBody {
-  text-align: center;
-  color: black;
-}
-
-.windowBody h1 {
-  margin-top:50px;
-  letter-spacing:2px;
-  font-weight:300;
-  color: black;
-  font-size: 27px;
-  font-family: Georgia;
-  text-decoration: underline;
-}
-
-.windowBody h2 {
-  color: black;
-  font-size: 22px;
-  font-family: Georgia;
-  font-weight: 500;
-}
-
-.windowBody p {
-  font-size: 15px;
-  line-height: 18px;
-  font-family: Georgia;
-  text-align: left;
-  text-indent: 30px;
-}
-
-.windowBody li {
-  text-align: left;
-  font-size: 15px;
-}
-
-.windowBody .emphasis {
-  font-weight: bold;
 }
 
 /*Responsive Mobile Nav */

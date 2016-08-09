@@ -32,3 +32,11 @@ $(window).resize(function() {
     $('.container-fluid').show();
   }
 });
+
+//Scroll onClick Buttons ======================================================
+
+$("#homeButton").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#title").offset().top
+    }, 2000);
+});

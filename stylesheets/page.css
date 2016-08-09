@@ -1,0 +1,66 @@
+.paper {
+  background-image: url('../images/paper.jpg');
+  background-size: cover;
+  padding:20px;
+  font-family: Georgia;
+  background-attachment: fixed;
+}
+
+.emphasis {
+  font-weight:300;
+  font-family: sans-serif;
+  margin: 10px;
+  font-style:italic;
+  letter-spacing: 3px;
+}
+
+.characterWindow {
+  cursor: pointer;
+}
+
+.windowBody {
+  text-align: center;
+  color: black;
+}
+
+.windowBody h1 {
+  margin-top:50px;
+  letter-spacing:2px;
+  font-weight:300;
+  color: black;
+  font-size: 27px;
+  font-family: Georgia;
+  text-decoration: underline;
+}
+
+.windowBody h2 {
+  color: black;
+  font-size: 22px;
+  font-family: Georgia;
+  font-weight: 500;
+}
+
+.windowBody p {
+  font-size: 15px;
+  line-height: 18px;
+  font-family: Georgia;
+  text-align: left;
+  text-indent: 30px;
+}
+
+.windowBody li {
+  text-align: left;
+  font-size: 15px;
+}
+
+.windowBody .emphasis {
+  font-weight: bold;
+}
+
+.windowBody ul {
+  margin: 10px 10px 30px 10px;
+  padding: 10px 10px 10px 25px;
+  border-style: ridge;
+  border-color: black;
+  border-width: 1px;
+}

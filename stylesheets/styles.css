@@ -7,6 +7,10 @@
   background-position: cover;
 }
 
+.characterWindow {
+  cursor: pointer;
+}
+
 .chapterNumber {
   text-align: center;
   font-family: Lato;

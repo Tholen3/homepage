@@ -6,7 +6,7 @@ function characterWindow() {
 }
 
 function loreBook() {
-  var loreBook = window.open("page/loreBook.html");
+  window.open("page/loreBook.html");
 }
 
 //Hamburger Menu ==============================================================

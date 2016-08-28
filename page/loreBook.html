@@ -1,36 +1,39 @@
 <!doctype html>
 <html>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>Lorebook</title>
-  <!-- Bootstrap -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <!--[if lt IE 9]>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Lorebook</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+<!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" href="../stylesheets/page.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src="../js/respond.js"></script>
-  <script src="../js/main.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<![endif]-->
+    <link rel="stylesheet" href="../stylesheets/page.css">
+    <link rel="stylesheet" href="../stylesheets/github-dark.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../js/respond.js"></script>
+    <script src="../js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
 <body class="pageBody">
   <div class='windowBody'>
     <h1>Lorebook</h1>
   </br>
   <h2>Race Overviews</h2>
-  <p class='emphasis'>Elysians</p>
+  <p class='accordion' data-toggle="collapse" data-target="#elysians">Elysians</p>
   <p>
-    <ul>
+    <ul id="elysians" class="collapse">
       <li>Wield crystalline armor and weapons. When an Elysian dies, their soul is captured within their belongings and is returned to the capital to live eternally within the halls of the city with all generations past and future.</li>
       <li>Magical specialties: Conjuring weapons, wards and enchanting items.</li>
       <li>Their elite guard consist of Swordmages that are both skilled with bladed weapons and with the magical manipulation of electricity focused through their crystalline items.</li>
     </ul>
-    <p class='emphasis'>The Pellantine Empire</p>
+    </p>
+    <p class='accordion' data-toggle="collapse" data-target="#pellantine">The Pellantine Empire</p>
     <p>
-      <ul>
+      <ul id="pellantine" class="collapse">
         <li>Made up of dozens of different kingdoms, the Pellantine Empire stretches all across the western lands. While The Empire itself is not directly involved with The Fourth Crusade, the religious arm of The Empire is. The Empires armies and navy thereby are not present in the region, but crusaders, knights, zealots and sellswords flood into Ajana for either the promise of fortune or for their own religious beliefs.</li>
         <li>The Emperor has sent out a handful of his most trusted agents, the Red Cloaks, to oversee the region. There are less than twenty Red Cloaks in the world, but they're known to be some of the finest swordsmen alive, while also being trained in espionage and subterfuge.</li>
         <li>Goldmane is the heart of The Fourth Crusade. Goldmane is a castle-town built upon the ruins of an ancient Ajuni city. It's the only real 'city' in Ajana and with The Fourth Crusade its streets have become filled to the brim with all sorts of travelers.</li>
@@ -38,27 +41,27 @@
         <li>The Pellantine people vary greatly in appearance, culture and belief. While the central kingdoms are more unified in their nationalism and Imperalism, the outlying kingdoms often share traits of their foreign neighbors.</li>
       </ul>
     </p>
-    <p class='emphasis'>The Inquisition</p>
+    <p class='accordion' data-toggle="collapse" data-target="#inquisition">The Inquisition</p>
     <p>
-      <ul>
+      <ul id="inquisition" class="collapse">
         <li>The religious arm of The Empire. The Inquisition is led by The High Inquisitor, who sits upon his throne on the Haven Isles near The Empire’s capital of Pellanguard. Their god, the god of light, has imbued three individuals with holy powers. These three are known as Saints, and are not present in or near Ajana. (I’ll get the details on them later).</li>
         <li>The more pure of The Inquisition wield healing magic, protection spells and the ability to inflict great pain upon undead or holy beings. The most elite of their order are War Priests, who for the most part are headed for The Dead Moores to the north to battle the Nexions at Blackwater Monastery.</li>
         <li>Half the Inquisition comes with legitimate religious beliefs and with the intent on bringing stability to the region. The other half are extremists, some even only coming to the region as an excuse to spill blood.</li>
         <li>The most extremist sect of The Inquisition are Witch Hunters. They go from town-to-town persecuting locals who do not bow a knee, and often jump straight to the execution or imprisonment of heretics.</li>
       </ul>
     </p>
-    <p class='emphasis'>Ajuni</p>
+    <p class='accordion' data-toggle="collapse" data-target="#ajuni">Ajuni</p>
     <p>
-      <ul>
+      <ul id="ajuni" class="collapse">
         <li>The descendants of a once-great empire which ruled the entire east, who have in large part been forced into slavery.</li>
         <li>Ajuni are tattooed with white markings much like brands on cattle. This way no matter where they are, everyone will know that they escaped their master.</li>
         <li>The Free Ajuni make up less than a quarter of their population, and with the coming crusade have seen an opportunity to fight back against their oppressors. As such, many have joined the crusade by way of mercenary factions.</li>
         <li>Due to their history, Ajuni are extremely strong-willed and nearly fearless. They secretly practice various shamanic rites, which were their one source of power even in enslavement. These shamanic spells focus on astral projection, curses and domination of enemies minds.</li>
       </ul>
     </p>
-    <p class='emphasis'>Nexions</p>
+    <p class='accordion' data-toggle="collapse" data-target="#nexions">Nexions</p>
     <p>
-      <ul>
+      <ul id="nexions" class="collapse">
         <li>Stealthy and dangerous, with a keen knowledge of the poisons which percolate the swamp they call home.</li>
         <li>Nexions are born with eyes which glow a dull red or orange. When they are killed, they are resurrected with blue eyes (as all wights have). If a 'blue-eye' dies, they then turn to ash. Blue-eyes lose their ability to conjure magic, as their soul is fractured. In addition, blue-eyes are seen as second-class citizens due to the fact that they fell in battle and are now 'less of a Nexion' for it.</li>
         <li>Nexions specialize in necromancy and assassination.</li>
@@ -66,59 +69,64 @@
         <li>Their leaders are the first Nexions -- three ancient beings of immense power known by some as Lich Kings or Night Lords.</li>
       </ul>
     </p>
-    <p class='emphasis'>Rootborn</p>
+    <p class='accordion' data-toggle="collapse" data-target="#rootborn">Rootborn</p>
     <p>
-      <ul>
+      <ul id="rootborn" class="collapse">
         <li>Specialize in alchemy and the taming of wildlife.</li>
         <li>Their leader is an underground revolutionary, a guerrilla fighter with the ability to control the minds of animals.</li>
         <li>Rootborn, being at home in the wilderness, have made allies with Spriggans as they respect nature.</li>
         <li>Their culture is being plagued by the curse of the Werewolf, which some believe to be originated from the Purebloods as a way to keep them frightened and weak.</li>
       </ul>
     </p>
-    <p class='emphasis'>Purebloods</p>
+    <p class='accordion' data-toggle="collapse" data-target="#purebloods">Purebloods</p>
     <p>
-      <ul>
+      <ul id="purebloods" class="collapse">
         <li>Wield finely crafted weapons and armor.</li>
         <li>Control a giant library where they horde artifacts and knowledge. They have used this knowledge to animate suits of armor as their protectors.</li>
         <li>Their leader is a robed monarch who physically has little power, but wields powerful magical artifacts.</li>
         <li>Live within a golden tower called Ayviir high above the Rootborn villages, who they see as lower-class. Their automatons enforce their rule on the streets of these villages, as Purebloods have a very low population.</li>
       </ul>
     </p>
-    <p class='emphasis'>Vaelar</p>
+    <p class='accordion' data-toggle="collapse" data-target="#vaelar">Vaelar</p>
     <p>
-      <ul>
+      <ul id="vaelar" class="collapse">
         <li>Distant cousins of the Rootborn and Pureblood. Vaelar separated from their brethren when they began to become fractured by civil war. The Vaelar traveled far to the south, led by prophet visions of a mysterious deity. At the end of their journey they found themselves traversing through frigid mountains before coming to a hidden passage which led them to a large valley tucked away from the rest of the world. This valley became known as the Silver Glade.</li>
         <li>Vaelar are servants of a mysterious genderless deity whose spirit is tied to the Silver Glade. In the heart of The Glade are tall trees which glow a faint green, serving as a place of pilgrimage for their people as it is their most holy site.</li>
         <li>While largely neutral in the world, Vaelar will intervene when they see great strife. Their most elite warriors are known as Bladedancers, who are trained to fight blindfolded. As such, they have an almost supernatural awareness of their surroundings and have lightning-fast reflexes. A Bladedancer’s sword is their most valuable possession, being greatly dishonored if they are separated from their weapon. </li>
         <li>Their leaders are a tribunal of mystics who spend a lifetime meditating to learn to commune with their deity. They’re peaceful, but when they sense genocide, great conflict or darkness coming to the world, they send out small numbers of their forces to help turn the tides: as they know that such conflict would eventually come to their doorstep if not impeded.</li>
       </ul>
     </p>
-    <p class='emphasis'>Firekin</p>
+    <p class='accordion' data-toggle="collapse" data-target="#firekin">Firekin</p>
     <p>
-      <ul>
+      <ul id="firekin" class="collapse">
         <li>Weapons and armor are crafted from dragon-bone.</li>
         <li>Firekin wield fire magic, and due to their harsh environment and culture are skilled hand-to-hand combatants.</li>
         <li>Their leader carries a necklace of Elysian design which houses the soul of a dragon. On rare occasions he can tap into this and physically transform into the dragon for a short while.</li>
       </ul>
     </p>
-    <p class='emphasis'>Dune Tribe</p>
+    <p class='accordion' data-toggle="collapse" data-target="#dune">Dune Tribe</p>
     <p>
-      <ul>
+      <ul id="dune" class="collapse">
         <li></li>
       </ul>
     </p>
-    <p class='emphasis'>Mountain Tribe</p>
+    <p class='accordion' data-toggle="collapse" data-target="#mountain">Mountain Tribe</p>
     <p>
-      <ul>
+      <ul id="mountain" class="collapse">
         <li></li>
       </ul>
     </p>
-    <p class='emphasis'>Canyon Tribe</p>
+    <p class='accordion' data-toggle="collapse" data-target="#canyon">Canyon Tribe</p>
     <p>
-      <ul>
+      <ul id="canyon" class="collapse">
         <li></li>
       </ul>
     </p>
   </div>
+   <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,3 +1,8 @@
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow: scroll;
+}
+
 .pageBody {
   padding:20px;
   font-family: Georgia;
@@ -9,6 +14,18 @@
   margin: 10px;
   font-style:italic;
   letter-spacing: 3px;
+}
+
+.accordion {
+  font-weight: 300;
+  font-family: sans-serif;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+  letter-spacing: 3px;
+  cursor: pointer;
+  color: lightblue;
+  background-color: #222;
 }
 
 .characterWindow {
@@ -31,10 +48,13 @@
 }
 
 .windowBody h2 {
+  text-align: left;
   color: black;
   font-size: 22px;
   font-family: Georgia;
   font-weight: 500;
+  text-indent: 100px;
+  text-decoration: underline;
 }
 
 .windowBody p {
